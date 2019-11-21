@@ -13,7 +13,6 @@ public class LoginFragment {
 
     private void Listtener(){
         mGoldDoubleListener.onFetchGoldFail("222");
-
     }
 
 

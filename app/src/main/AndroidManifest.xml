@@ -9,17 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".modle.activity.SQLActivity">
+        <activity android:name=".modle.activity.SDKActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".mvvm.MvvmActivity" />
-        <activity android:name=".modle.activity.Main2Activity">
+        <activity android:name=".modle.activity.SQLActivity">
 
         </activity>
+        <activity android:name=".mvvm.MvvmActivity" />
+        <activity android:name=".modle.activity.Main2Activity"></activity>
         <activity android:name=".modle.activity.LoginActivity" />
         <activity android:name=".MainActivity" />
     </application>

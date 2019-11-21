@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.mydemo.R;
 import com.example.mydemo.bean.SqlBean;
+import com.example.mydemo.sdk.GameTimeListener;
 import com.example.mydemo.util.MyDatabaseHelper;
 
 import java.util.ArrayList;
@@ -39,6 +40,10 @@ public class SQLActivity extends AppCompatActivity {
         car = findViewById(R.id.btn3);
         mList = new ArrayList<>();
         dbHelper = new MyDatabaseHelper(SQLActivity.this, "TaskLists.db", null, 1);
+
+
+
+
         car.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
